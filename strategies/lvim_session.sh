@@ -23,6 +23,8 @@ main() {
 		# session flag `-S`. This will cause an error, so we're falling back to
 		# starting plain nvim.
 		echo "lvim"
+	else
+		echo "$ORIGINAL_COMMAND"
 	fi
 }
 main
